@@ -1,0 +1,133 @@
+
+body
+{
+	/*background_image:url{"img/fondo.jpg"}*/
+	background:white;
+	font-family: Tahoma;
+}
+
+h1
+{
+	font-style:oblique;
+	text-align:center;
+	border-top:3px dashed blue;
+	border-bottom:3px dashed blue;
+	font-weight:bold;
+	overflow:hidden;
+	color:#D5D338
+}
+
+h2
+{
+	color:#A5A32C;
+	text-align:center;
+}
+
+h3
+{
+	color:#A5A32C;
+	text-align:center;
+}
+
+.header
+{
+font-weight:bold;
+width:100%;
+}
+
+.header img
+{
+	width:10%;
+	text-align:center;
+	border-radius: 20px 20px;
+}
+
+
+.slider img
+{
+	width:100%;
+}
+.container
+{
+	border-radius:15px;
+	background:white;
+	width:100%;
+	margin:auto;
+}
+
+.row
+{
+	display:inline;
+
+	
+}
+
+
+
+.col img
+{
+	text-align: center;
+	width: 350px;
+  	height: 230px;
+	border-radius: 50px 20px;
+	box-shadow: 10px 10px;
+	margin-left:22%;
+	
+}
+
+.colu img
+{
+	text-align:center;
+	border-radius: 50px 20px;
+	box-shadow: 10px 10px;
+	
+	width:40%;
+}
+
+.colu
+{
+	text-align:center;
+	font-family: Tahoma;
+}
+
+.col
+{
+	display:inline-block;
+	width:45%;
+	font-family: Tahoma;
+}
+
+
+
+
+.menu
+{
+	float:right;
+}
+
+.menu li
+{
+	display:inline-block;
+	margin-right:20px;
+}
+
+.menu a:hover
+{
+	text-decoration:underline;
+	color:yellow;
+	padding:10px;
+	background-color:blue;
+}
+
+
+
+.menufooter a:hover
+{
+	text-decoration:underline;
+	color:black;
+	padding:15px;
+	background-color:yellow;
+	display:inline;
+	margin-right:20px;
+}
+
